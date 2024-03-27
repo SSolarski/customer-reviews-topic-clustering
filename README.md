@@ -8,7 +8,7 @@ The primary objective of this project is to enhance the in-store experience and 
 
 ## Solution Overview
 
-This project uses BERTopic, an advanced topic modeling technique based on transformers, to analyze textual data from Google reviews of adidas stores in Germany. BERTopic allows for the efficient extraction of meaningful topics from large volumes of text, providing a deep understanding of customer feedback. Feel free to explore the four notebooks. The 04_results contains all the visualizations and discussion of results, while the previous three are the steps taken to generate those results. To setup the environment please install all the requirements from the requirements.txt file.
+This project uses BERTopic, an advanced topic modeling technique based on transformers, to analyze textual data from Google reviews of adidas stores in Germany. BERTopic allows for the efficient extraction of meaningful topics from large volumes of text, providing a deep understanding of customer feedback. Feel free to explore the four notebooks. The 04_results contains all the visualizations and discussion of results, while the previous three are the steps taken to generate those results. 
 
 ### Data Source
 
@@ -27,11 +27,11 @@ The dataset comprises Google Maps reviews for adidas stores across Germany. Text
 This repository contains all the code needed to replicate the analysis. The process is documented in multiple Jupyter Notebooks, detailing the steps data preprocessing, sentiment analysis, topic clustering and finally all the results.
 
 ### Steps to Reproduce the Results:
-
-1. **Dataset**: The dataset is available in the adidas_input folder. The data was scraped using Instant Data Scraper on Google Chrome.
-2. **Data Preprocessing**: Run the preprocessing notebook to clean and organize the dataset.
-3. **Sentiment Analysis**: Run the sentiment analysis notebook to estimate the sentiment for each review.
-4. **Topic Modeling**: Execute the BERTopic modeling notebook to identify and analyze topics. Explore the visualizations generated in this notebook.
+1. **Environment**: Setup your environment by installing the packages from the requirements.txt file. Add your anyscale-api token to the .env file. 
+2. **Dataset**: The dataset is available in the adidas_input folder. The data was scraped using Instant Data Scraper on Google Chrome.
+3. **Data Preprocessing**: Run the preprocessing notebook to clean and organize the dataset.
+4. **Sentiment Analysis**: Run the sentiment analysis notebook to estimate the sentiment for each review.
+5. **Topic Modeling**: Execute the BERTopic modeling notebook to identify and analyze topics. Explore the visualizations generated in this notebook.
 
 ## Potential Applications
 
