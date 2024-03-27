@@ -4,7 +4,7 @@
 
 ### Objective
 
-The primary objective of this project is to enhance the in-store experience and online presence of Adidas stores across Germany. By analyzing customer feedback from Google reviews, we aim to identify key themes and sentiments that reflect the customer's overall experience. These insights will enable targeted improvements, contributing to increased customer satisfaction and business growth.
+The primary objective of this project is to enhance the in-store experience and online presence of adidas stores across Germany. By analyzing customer feedback from Google reviews, we aim to identify key themes and sentiments that reflect the customer's overall experience. These insights will enable targeted improvements, contributing to increased customer satisfaction and business growth.
 
 ## Solution Overview
 
